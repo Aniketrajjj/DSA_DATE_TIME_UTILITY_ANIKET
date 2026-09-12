@@ -10,6 +10,7 @@ public class AgeCalculator {
     private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
     public static class AgeResult {
+    
         public int years;
         public int months;
         public int days;
